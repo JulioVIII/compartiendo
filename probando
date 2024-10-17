@@ -1,0 +1,27 @@
+#Open Library and Alien Values Story
+alien_pluton={}
+alien_pluton["color_ojos"]="green"
+alien_pluton["altura"]="2.50com"
+alien_pluton["manos"]="grandes"
+print(f"la otra noche vi un alien tenia el color de los ojos {alien_pluton["color_ojos"]}, una altura de {alien_pluton["altura"]} y unas manos {alien_pluton["manos"]}")
+
+warzone={}
+warzone['julio'] = {'puntuacion': '5', 'rango': '5', 'arma': 'Kastov'}
+warzone['thanatos'] = {'puntuacion': '6', 'rango': '4', 'arma': 'M4A1'}
+warzone['pelusathos'] = {'puntuacion': '4', 'rango': '3', 'arma': 'MP5'}
+
+print(f"The other day we were playing, the three of us: Julio, Thanatos, and Pelusathos,\n" 
+      f"the score in the game was:\n"
+      f"Julio: {warzone['julio']['puntuacion']}\n"
+      f"Thanatos: {warzone['thanatos']['puntuacion']}\n"
+      f"Pelusathos: {warzone['pelusathos']['puntuacion']}\n"
+      "\n"
+      f"Rango de Julio: {warzone['julio']['rango']}\n"
+      f"Rango de Thanatos: {warzone['thanatos']['rango']}\n"
+      f"Rango de Pelusathos: {warzone['pelusathos']['rango']}"
+      "\n"
+      "\n"
+      f"Puntuacion de Julio: {warzone['julio']['puntuacion']}\n"
+      f"Puntuacion de Thanatos: {warzone['thanatos']['puntuacion']}\n"
+      f"Puntuacion de Pelusathos: {warzone['pelusathos']['puntuacion']}"
+
